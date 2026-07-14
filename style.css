@@ -1,0 +1,108 @@
+body {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.section-head {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.section-head__title {
+  font-size: 40px;
+}
+
+.section-head__list,
+.section-head__li {
+  display: inline-block;
+  color: gray;
+}
+
+.section-head__li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.section-product {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 5px;
+}
+
+.section-product__list {
+  display: inline-block;
+  border: solid black 5px;
+  text-align: center;
+  width: 300px;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.section-product__button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.section-product__list:hover {
+  background-color: white;
+  color: black;
+}
+
+.section-product__button:hover {
+  background-color: black;
+  color: whi;
+  cursor: pointer;
+}
+
+.section-contact{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  justify-content: center;
+  display: inline-block;
+}
+.section-contact__td{
+  font-size: 20px;
+}
+.section-contact__input{
+  width: 300px;
+  height: 35px;
+  font-size: 18px;
+  margin: 2px;
+}
+
+.section-contact__button{
+  background-color: yellow;
+  color: black;
+  width: 600px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.section-contact__button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.section-product{
+  background-image: url(images/background.img.png);
+}
